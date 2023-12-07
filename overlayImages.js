@@ -1,0 +1,71 @@
+var images = [{
+ title:'RGB'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_RGB.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'RedEdgeRatio'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_RedEdgeRatio.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'NDVI'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_NDVI.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'mND705'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_mND705.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'PRI'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_PRI.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'WBI'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_WBI.png'
+,headerFile:'multi_or.hdr'
+},{
+ title:'MCARI'
+,swLatitude:34.04868318061708
+,swLongitude:-117.8209786884832
+,neLatitude:34.05009258748363
+,neLongitude:-117.8202877848326
+,latitudeOffset:0
+,longitudeOffset:0
+,imageSource:'multi_or_MCARI.png'
+,headerFile:'multi_or.hdr'
+}]

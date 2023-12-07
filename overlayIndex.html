@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Headwall Photonics Hyperspectral Data</title>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCeUlfZFn_M_h9kFDQsxX0xsTSayWyed2Y&libraries=drawing&libraries=geometry">
+    </script>
+    <link rel="stylesheet" type="text/css"
+       href="http://apps.headwallphotonics.com/extjs/4.2.1/resources/css/ext-all.css" />
+    <script type="text/javascript"
+       src="http://apps.headwallphotonics.com/extjs/4.2.1/ext-all.js">
+    </script>
+    <script src="overlayImages.js?20150910"></script>
+    <script src="hpiOverlayindex.js?20150929b"></script>
+    <style>
+    #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+    }
+
+    img.top_right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    }
+    </style>
+
+</head>
+<body  style="margin:0px; padding:0px;">
+    <script>
+        Ext.onReady(function() {
+                try {
+                        initialize();
+                        google.maps.event.addListenerOnce(g_map, 'idle', function() {
+                           google.maps.event.trigger(g_map, 'resize');
+                        });
+                } catch (err) {
+                        var txt="There was an error loading this page.<br>Error description: " + err.message + "\n\n";
+                        //hpi.common.errorMessage(txt,"Error loading page.");
+                        alert(txt);
+                }
+        });
+    </script>
+    <a href='index.html' border='0'><img src="GreenYellowRedBar.png"  class="top_right" /></a>
+  </body>
+</html>

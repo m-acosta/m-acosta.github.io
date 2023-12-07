@@ -1,0 +1,85 @@
+ENVI
+description = {HEADWALL Hyperspec III[HEADWALL Hyperspec III],RADIANCE,REFLECTANCE,[HEADWALL Hyperspec III OR]}
+samples = 2658
+lines = 6514
+bands = 9
+header offset = 0
+file type = ENVI Standard
+data type = 12
+interleave = bil
+sensor type = Unknown
+byte order = 0
+wavelength units = nm
+map info = {Geographic Lat/Lon,1,1,-117.8209786884832,34.05009258748363,2.599336533564792e-7,2.163658069619282e-7,WGS84,units=Degrees}
+band names = {
+MCARI
+,mND705
+,NDVI
+,PRI
+,RedEdgeRatio
+,WBI
+,480
+,540
+,670
+}
+wavelength = {
+0.001
+,0.002
+,0.003
+,0.004
+,0.005
+,0.006
+,480
+,540
+,670
+}
+;CffHeader = C:/Headwall/sensorConfig/nHS-339/12mm/radioCal.mp/RC_DN.hdr
+;Correct Position = 1
+;DarkHeader = C:/Users/amar_g/Desktop/Hyperspectral Data/100026_FS_VINEYARD_30M_VNIR_2023_08_23_22_57_51/100013__Dark_2023_06_14_22_05_51/raw_0.hdr
+;Exposure (ms) = 4.996
+;Firmware = nhs_3.1.5
+;GSDO = 0.024
+;HO = 213
+;Invert Columns = 1
+;Latitude Offset (m) = 0
+;Longitude Offset (m) = 0
+;Ortho DEM File = c:\headwall\dem\W140N40.HDR
+;Ortho GPS Offset Altitude Offset(m) = 34
+;Ortho GPS Offset Front Up Positive = 0
+;Ortho GPS Offset Geoid Correction = 0
+;Ortho GPS Offset North-East Positive = 1
+;Ortho GPS Offset Pitch = -0.555
+;Ortho GPS Offset Right Positive = 1
+;Ortho GPS Offset Roll = 1.05
+;Ortho GPS Offset Time Offset(ms) = 0
+;Ortho GPS Offset Yaw = 0
+;Ortho Lens EFL (mm) = 12
+;Ortho Lens Pixel Pitch(um) = 7.4
+;Ortho Lens Spatial Binning = 1
+;Ortho Resolution (m) = 0.024
+;Ortho Running Avg. of Altitude = 0
+;Ortho Running Avg. of Latitude = 0
+;Ortho Running Avg. of Longitude = 0
+;Ortho Running Avg. of Pitch = 0
+;Ortho Running Avg. of Raw = 0
+;Ortho Running Avg. of Roll = 0
+;Ortho Running Avg. of X = 0
+;Ortho Running Avg. of Y = 0
+;Ortho Running Avg. of Yaw = 0
+;Ortho Running Avg. of Z = 0
+;Ortho Sensor Alpha = 0
+;Ortho Sensor Beta = 0
+;Ortho Sensor Gamma = 0
+;Ortho Sensor Invert Columns = 1
+;Row binning = 1
+;Serial Number = nHS-339
+;Units = mW/(cm2*sr*um)
+;averagePixelDisp = 2.23166265675787
+;bBinaryMap = 000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+;framingCamera = 0
+;gain = -1
+;hsiii_version = Hyperspec v3.2.0
+;invertColumns = 1
+;left = 0
+;pixel0 = 143.168556036552
+;top = 94
